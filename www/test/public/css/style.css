@@ -1,0 +1,32 @@
+.order #message {
+    height: 76px;
+}
+.order .map {
+    height: 300px;
+    width: 100%;
+    margin: 0px 12px 18px 12px;
+    position: relative;
+    background: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+}
+.order .error{
+    bodrer-color: red;
+}
+.order .form-control[readonly] {
+    background-color: #ffffff;
+}
+.order .errorText {
+    color: red;
+    font-size: 13px;
+    min-height: 10px
+}
+.page{
+    padding: 20px 5px;
+    background-image: url('../img/msk-vld05.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}

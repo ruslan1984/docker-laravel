@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +10,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/list', 'OrderController@getList');
+Route::get('/', 'OrderController@index');
+Route::post('/', 'OrderController@submit');
+
+
+
